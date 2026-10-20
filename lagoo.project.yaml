@@ -1,0 +1,11 @@
+id: 33doctor-downloads
+name: 33Doctor Downloads
+summary: Instaladores oficiais dos aplicativos 33Doctor (repositório público de distribuição).
+status: producao
+locations:
+  github: https://github.com/tiagomarcal55/33doctor-downloads
+deploy:
+  type: distribuicao
+context:
+  entrypoints:
+    - README.md
